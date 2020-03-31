@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
       {
         titulo: 'Formulário com NgModel',
         subtitulo: 'Formulário simples utilizando o NgModel',
-        descricao: 'Esse exemplo mostra como contruir um formulário simples e utilizar o binding com o NgModel para capturar o valor de um input.',
+        descricao: 'Esse exemplo mostra como construir um formulário simples e utilizar o binding com o NgModel para capturar o valor de um input.',
         urlCodigo: 'https://github.com/latchuk/Aula12',
         urlExemplo: '/exemploNgModel'
       },
@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
       {
         titulo: 'Formulário com FormControl',
         subtitulo: 'Formulário simples utilizando o FormControl',
-        descricao: 'Esse exemplo mostra como contruir um formulário simples e utilizar o binding com o FormControl para capturar o valor de um input.',
+        descricao: 'Esse exemplo mostra como construir um formulário simples e utilizar o binding com o FormControl para capturar o valor de um input.',
         urlCodigo: 'https://github.com/latchuk/Aula12',
         urlExemplo: '/exemploFormControl'
       },
