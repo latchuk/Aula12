@@ -4,6 +4,7 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao
 import { HomeComponent } from './home/home.component';
 import { ExemploNgModelComponent } from './exemplo-ng-model/exemplo-ng-model.component';
 import { ExemploFormControlComponent } from './exemplo-form-control/exemplo-form-control.component';
+import { ExemploFormGroupComponent } from './exemplo-form-group/exemplo-form-group.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'exemploNgModel', component: ExemploNgModelComponent },
   { path: 'exemploFormControl', component: ExemploFormControlComponent },
+  { path: 'exemploFormGroup', component: ExemploFormGroupComponent },
   { path: '**', component: PaginaNaoEncontradaComponent }
 
 ];

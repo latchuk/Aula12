@@ -18,6 +18,7 @@ import { ExemploNgModelComponent } from './exemplo-ng-model/exemplo-ng-model.com
 import { HomeComponent } from './home/home.component';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 import { ExemploFormControlComponent } from './exemplo-form-control/exemplo-form-control.component';
+import { ExemploFormGroupComponent } from './exemplo-form-group/exemplo-form-group.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ExemploFormControlComponent } from './exemplo-form-control/exemplo-form
     ExemploNgModelComponent,
     HomeComponent,
     PaginaNaoEncontradaComponent,
-    ExemploFormControlComponent
+    ExemploFormControlComponent,
+    ExemploFormGroupComponent
   ],
   imports: [
     BrowserModule,

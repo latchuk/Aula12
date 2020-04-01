@@ -32,6 +32,14 @@ export class HomeComponent implements OnInit {
         urlExemplo: '/exemploFormControl'
       },
 
+      {
+        titulo: 'Formulário com FormGroup',
+        subtitulo: 'Formulário utilizando o FormGroup',
+        descricao: 'Esse exemplo mostra como construir um formulário e utilizar o FormGroup.',
+        urlCodigo: 'https://github.com/latchuk/Aula12',
+        urlExemplo: '/exemploFormGroup'
+      },
+
     ];
 
   }
