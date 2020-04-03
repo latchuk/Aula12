@@ -19,6 +19,7 @@ import { HomeComponent } from './home/home.component';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 import { ExemploFormControlComponent } from './exemplo-form-control/exemplo-form-control.component';
 import { ExemploFormGroupComponent } from './exemplo-form-group/exemplo-form-group.component';
+import { AppService } from './app.service';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,9 @@ import { ExemploFormGroupComponent } from './exemplo-form-group/exemplo-form-gro
     MatToolbarModule,
 
   ],
-  providers: [],
+  providers: [
+    AppService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

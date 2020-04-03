@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
+import { AppService } from '../app.service';
 
 @Component({
   selector: 'app-exemplo-form-control',
@@ -18,9 +19,10 @@ export class ExemploFormControlComponent implements OnInit {
 
   jsonDados: string;
 
-  constructor() { }
+  constructor(private appService: AppService) { }
 
   ngOnInit(): void {
+    this.nome.setValue(this.appService.teste);
   }
 
   limpar() {
@@ -35,6 +37,8 @@ export class ExemploFormControlComponent implements OnInit {
   }
 
   enviar() {
+
+    this.appService.teste = this.nome.value;
 
     this.nome.markAsTouched();
     this.sobrenome.markAsTouched();
